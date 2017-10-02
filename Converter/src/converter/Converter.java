@@ -11,6 +11,7 @@ public class Converter extends JFrame {
     }
 
     public static void main(String[] args) {
+        // Função Principal
         do{
         String s = JOptionPane.showInputDialog("String: ");
         b = "\n";
