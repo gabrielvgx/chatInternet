@@ -2,7 +2,7 @@ package converter;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-
+// Aplicação para Converter String para ASCII entre outras conversões
 public class Converter extends JFrame {
 
     private static String b;
