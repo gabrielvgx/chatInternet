@@ -6,15 +6,12 @@ import javax.swing.JOptionPane;
 public class Converter extends JFrame {
 
     private static String b;
-    private static int decimal;
 
     public Converter() {
     }
 
     public static void main(String[] args) {
-        
-        System.out.println((int)'@');
-        
+        do{
         String s = JOptionPane.showInputDialog("String: ");
         b = "\n";
         for (char c : s.toCharArray()) {
@@ -34,6 +31,7 @@ public class Converter extends JFrame {
             
             JOptionPane.showMessageDialog(null, "Numero em Binario ASCII \n" + aux2 + "\nEm Decimal ASCII \n" + aux);
         }
+        }while(JOptionPane.showConfirmDialog(null, "Deseja Realizar nova conversão? ") == 0);
     }
 
 }
